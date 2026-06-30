@@ -48,7 +48,7 @@ Button, Control Center, and the Apple Watch:
 | --- | --- |
 | **Score This Hole** | Works out the hole's score from the shots you've tracked (the same calculation as the shot map's **Auto Score**), saves it, and moves to the next hole. |
 | **Go to Hole** | Jumps the round on screen to a hole number you choose. |
-| **Tag a Shot** | Drops a GPS shot pin at your current location. Optionally records the **club**, **lie**, and **stance slope** — or leave them blank. |
+| **Tag a Shot** | Drops a GPS shot pin at your current location. Optionally records the **club**, **lie**, and **stance slope** — or leave them blank. Turn on **Detect Tee** and it'll start the next hole for you if you're standing on its tee. |
 | **Set the Flag** | Places (or moves) the hole's green/flag pin at your current location. |
 | **Set Score** | Records a hole's **score** and/or **putts** by number — no GPS, handy for entering a score by voice or in a shortcut. |
 
@@ -56,6 +56,27 @@ Button, Control Center, and the Apple Watch:
 capture a single GPS fix the moment you run them, exactly like the **Tag Shot**
 and **Set Flag** buttons on the in-app shot map. If location is off or no fix
 arrives, the action tells you instead of dropping a bad pin.
+
+### Tag a Shot's "Detect Tee" option
+
+**Tag a Shot** has one more optional toggle: **Detect Tee**. It's off by
+default, so a plain "Tag a shot" always drops the pin on whichever hole you
+currently have open — the same as before.
+
+Turn it on (in a shortcut, or when you ask Siri) and Golf Stats instead checks
+where you're standing against the course's mapped layout: if you're on the
+**next hole's tee**, it starts that hole and tags the shot as its first (tee)
+shot, moving the round on screen to it — so the *next* tag you make lands on
+the new hole automatically. This makes it possible to play a hole-by-hole
+shortcut or Action Button press that "just works" as you walk from green to
+tee, without having to open the app and tap to the next hole yourself.
+
+If the course isn't mapped, you're offline with nothing cached, or your
+location doesn't clearly match a tee, Detect Tee quietly falls back to tagging
+the hole you already have open — it never blocks or fails because of this
+check. The **Tag a Shot Control Center / Lock Screen control** (below) does
+not use Detect Tee; it always tags the hole you're viewing, so add the
+**Detect Tee** behavior through a Shortcut or Siri instead if you want it.
 
 ---
 
@@ -94,8 +115,8 @@ them into your own automations (for example, a single shortcut that tags a shot
    **Score This Hole**, **Go to Hole**, **Tag a Shot**, **Set the Flag**, and
    **Set Score**.
 4. Pick one and fill in any optional fields (e.g. Tag a Shot's **Club**, **Lie**,
-   and **Slope**; Set Score's **Hole**, **Score**, and **Putts**). Leave a field
-   blank to skip it.
+   **Slope**, and **Detect Tee**; Set Score's **Hole**, **Score**, and
+   **Putts**). Leave a field blank, or leave Detect Tee off, to skip it.
 5. Name the shortcut and tap **Done**.
 
 You can run that shortcut from the Shortcuts app, add it to your Home Screen, put
