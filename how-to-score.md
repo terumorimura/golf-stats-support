@@ -36,6 +36,7 @@ and live sharing. This guide walks through scoring a round from start to finish.
   - [Tap to tag vs. center crosshair](#tap-to-tag-vs-center-crosshair)
   - [Plays-like distance](#plays-like-distance)
   - [Edit a shot: penalties & relief](#edit-a-shot-penalties--relief)
+  - [Plan a hole before you play](#plan-a-hole-before-you-play)
 - [Scoring from your Apple Watch](#scoring-from-your-apple-watch)
 - [Reviewing a round](#reviewing-a-round)
   - [The scorecard](#the-scorecard)
@@ -255,6 +256,36 @@ You can also move the shot, renumber it, send it to another hole, turn it into
 the flag, or delete it.
 
 ![Edit a shot: penalties & relief](images/edit-shot.png)
+
+### Plan a hole before you play
+
+Tap the **target** icon at the top of the shot map to plan the hole shot by
+shot. Golf Stats works out **where to aim each shot to lower *your* expected
+score** — not a pro's — from the hole's real map, your clubs, and your skill
+level (a **Baseline Player** you set in **Settings**, kept separate from the
+strokes-gained baseline so you can plan as one level and measure against another).
+
+The plan draws straight onto the map: a numbered **aim marker** for each shot, a
+**dispersion cone** showing the spread a player at your level would hit, and the
+**line of play** from tee to green — each leg labelled with its club and
+distance, and the plays-like yardage too when that toggle is on. The recommended
+aim keeps the big number out of play rather than flying at the flag, and steers
+you clear of bunkers when there's a safer line.
+
+A **Strategy** sheet slides up with the shot-by-shot detail: each shot's club and
+carry, which side to favour, the surface you're likely to finish on, a risk
+percentage where a shot carries one, and the hole's **expected score**. When your
+iPhone supports Apple Intelligence the plan is also written out in plain language
+— the words only *describe* the plan and never change it. Dismiss the sheet to
+study the map; tap the target icon again to bring it back.
+
+Your own pins always win: once you've teed off, the plan starts from the tee you
+actually played, and once you've **set the flag** it aims at the real pin instead
+of the green's centre. A tagged tee shot plus a set flag are enough to plan a
+hole **even when the course isn't mapped at all**. Tap **Hide overlay** in the
+sheet to clear the plan.
+
+![Plan a hole before you play](images/hole-strategy.png)
 
 ## Scoring from your Apple Watch
 
