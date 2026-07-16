@@ -214,7 +214,7 @@ bar is where the action is:
 
 Turn on **plays-like distance** (the ruler, top right) to adjust yardages for
 elevation and wind. Tap any pin to edit its club, lie, or slope — or to record a
-**penalty** or a **relief** drop.
+**penalty** or take **relief**.
 
 ![Tag shots, the flag & auto score](images/shot-map.png)
 
@@ -246,11 +246,13 @@ Tap any shot pin to open its editor. Set the **club**, **lie**, and **slope** �
 these feed your club distances and strokes gained.
 
 **Penalties and relief.** For a ball that's out of bounds or in a water hazard,
-tag the shot **where the ball finished**, then on your **next** shot — where you
-drop or play from — pick a **Relief** type. Choosing a relief option **adds the
+tag the shot **where the ball finished**, then pick a **Relief** type **on that
+pin** — the spot you take relief from. Choosing a relief option **adds the
 penalty stroke for you automatically**, so you don't need to touch the penalty
-count. The separate **Penalty strokes** stepper is still there for any other
-penalty you want to add by hand.
+count. That pin turns into a small dot (you don't play from there), and the
+next pin you tag — where you drop — carries the stroke number; no line is drawn
+between them, since the ball was moved by hand. The separate **Penalty
+strokes** stepper is still there for any other penalty you want to add by hand.
 
 You can also move the shot, renumber it, send it to another hole, turn it into
 the flag, or delete it.
